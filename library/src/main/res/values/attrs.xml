@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="SimpleRatingBar">
+		<attr name="total_stars" format="integer" />
+		<attr name="rating" format="integer" />
+		<attr name="drawable_empty" format="reference" />
+		<attr name="drawable_filled" format="reference" />
+		<attr name="animation" format="integer" >
+			<enum name="alpha" value="1" />
+			<enum name="rotation" value="2" />
+			<enum name="scale" value="3" />
+			<enum name="ring" value="4" />
+			<enum name="flip" value="5" />
+		</attr>
+	</declare-styleable>
+</resources>
